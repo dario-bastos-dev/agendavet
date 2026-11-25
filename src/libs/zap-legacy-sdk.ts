@@ -1,4 +1,3 @@
-// src/libs/zap-legacy-sdk.ts  (biblioteca de terceiros — NÃO ALTERAR)
 export class ZapLegacySDK {
   constructor(private token: string) {}
  

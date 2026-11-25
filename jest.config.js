@@ -1,0 +1,1 @@
+module.exports = { preset: 'ts-jest', testEnvironment: 'node', coverageReporters: ['text','lcov','json-summary'], collectCoverageFrom: ['src/pricing/**/*.ts','src/facade/**/*.ts'], coverageThreshold: { './src/pricing/': { branches: 80 }, './src/facade/': { branches: 80 } } };

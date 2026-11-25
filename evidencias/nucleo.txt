@@ -1,0 +1,43 @@
+
+> agendavet@1.0.0 check:core
+> ts-node scripts/verificar-nucleo.ts
+
+OK - CONSULTA normal
+OK - CONSULTA Pet+
+OK - VACINA normal
+OK - VACINA Pet+
+OK - CIRURGIA normal
+OK - CIRURGIA Pet+
+OK - BANHO_TOSA normal
+OK - BANHO_TOSA Pet+
+OK - taxa 2880 min Pet+ false
+OK - taxa 1440 min Pet+ false
+OK - taxa 1439 min Pet+ false
+OK - taxa 120 min Pet+ false
+OK - taxa 119 min Pet+ false
+OK - taxa 0 min Pet+ false
+OK - taxa 60 min Pet+ true
+OK - taxa -1 min Pet+ false
+OK - valor inválido 0
+OK - valor inválido -1
+OK - valor inválido NaN
+OK - data inválida
+OK - valor agendado Pet+
+OK - notificação única
+OK - campos obrigatórios
+OK - não notifica dados inválidos
+OK - consulta persistida
+OK - taxa sobre o valor com Pet+
+OK - status persistido
+OK - cancelamento duplicado
+OK - consulta inexistente
+OK - DDI do adapter
+OK - payload do adapter
+OK - DDI do adapter
+OK - payload do adapter
+OK - falha da SDK
+TOTAL: 34 verificações aprovadas.
+
+
+
+Código de saída: 0

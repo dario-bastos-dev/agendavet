@@ -1,0 +1,29 @@
+
+> agendavet@1.0.0 test:coverage
+> jest --coverage --runInBand --silent
+
+-----------------------------------|---------|----------|---------|---------|-------------------
+File                               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------------------|---------|----------|---------|---------|-------------------
+All files                          |     100 |      100 |     100 |     100 |                   
+ facade                            |     100 |      100 |     100 |     100 |                   
+  ClinicaFacade.ts                 |     100 |      100 |     100 |     100 |                   
+ pricing                           |     100 |      100 |     100 |     100 |                   
+  CalculadoraDePreco.ts            |     100 |      100 |     100 |     100 |                   
+  CalculadoraDeTaxaCancelamento.ts |     100 |      100 |     100 |     100 |                   
+  DescontoPlanoPet.ts              |     100 |      100 |     100 |     100 |                   
+  regras.ts                        |     100 |      100 |     100 |     100 |                   
+-----------------------------------|---------|----------|---------|---------|-------------------
+
+PASS src/facade/ClinicaFacade.test.ts
+PASS tests/api.test.ts
+PASS src/pricing/CalculadoraDeTaxaCancelamento.test.ts
+PASS src/pricing/CalculadoraDePreco.test.ts
+
+Test Suites: 4 passed, 4 total
+Tests:       49 passed, 49 total
+Snapshots:   0 total
+Time:        2.942 s, estimated 3 s
+
+
+Código de saída: 0

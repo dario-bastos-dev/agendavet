@@ -1,0 +1,44 @@
+
+> agendavet@1.0.0 dev:parte1
+> ts-node src/demo.ts
+
+[ZAP TOKEN-123] -> 5531999990000: Olá Ana! A consulta do Thor foi agendada para 26/11/2026 16:01. Valor: R$ 120,00
+{
+  tutor: 'Ana',
+  telefone: '31999990000',
+  pet: 'Thor',
+  tipo: 'CONSULTA',
+  planoPetMais: false,
+  dataHora: 2026-11-26T19:01:26.810Z,
+  valor: 120,
+  status: 'AGENDADA',
+  id: 1
+}
+[ZAP TOKEN-123] -> 5531999990000: Olá Ana! A consulta do Thor foi agendada para 26/11/2026 16:01. Valor: R$ 64,00
+{
+  tutor: 'Ana',
+  telefone: '31999990000',
+  pet: 'Thor',
+  tipo: 'VACINA',
+  planoPetMais: true,
+  dataHora: 2026-11-26T19:01:26.898Z,
+  valor: 64,
+  status: 'AGENDADA',
+  id: 2
+}
+[ZAP TOKEN-123] -> 5531999990000: Olá Ana! A consulta do Thor foi agendada para 26/11/2026 16:01. Valor: R$ 65,00
+{
+  tutor: 'Ana',
+  telefone: '31999990000',
+  pet: 'Thor',
+  tipo: 'BANHO_TOSA',
+  planoPetMais: false,
+  dataHora: 2026-11-26T19:01:26.899Z,
+  valor: 65,
+  status: 'AGENDADA',
+  id: 3
+}
+
+
+
+Código de saída: 0

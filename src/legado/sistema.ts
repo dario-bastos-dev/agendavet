@@ -1,4 +1,3 @@
-// src/legado/sistema.ts  (NÃO copie este estilo!)
 import { ZapLegacySDK } from '../libs/zap-legacy-sdk';
  
 export class GerenciadorClinica {

@@ -1,0 +1,17 @@
+
+> agendavet@1.0.0 test
+> jest --runInBand --silent
+
+
+PASS src/facade/ClinicaFacade.test.ts
+PASS src/pricing/CalculadoraDeTaxaCancelamento.test.ts
+PASS tests/api.test.ts
+PASS src/pricing/CalculadoraDePreco.test.ts
+
+Test Suites: 4 passed, 4 total
+Tests:       49 passed, 49 total
+Snapshots:   0 total
+Time:        2.706 s, estimated 19 s
+
+
+Código de saída: 0

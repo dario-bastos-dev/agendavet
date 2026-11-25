@@ -1,0 +1,16 @@
+API Docker verificada pelo Windows via encaminhamento local
+
+GET /consultas → HTTP 200
+[]
+
+POST /consultas → HTTP 201
+{"tutor":"Ana","telefone":"31999990000","pet":"Thor","tipo":"CONSULTA","dataHora":"2026-11-24T20:03:56.087Z","planoPetMais":true,"valor":96,"status":"AGENDADA","id":1}
+
+GET /consultas/1 → HTTP 200
+{"tutor":"Ana","telefone":"31999990000","pet":"Thor","tipo":"CONSULTA","dataHora":"2026-11-24T20:03:56.087Z","planoPetMais":true,"valor":96,"status":"AGENDADA","id":1}
+
+DELETE /consultas/1 → HTTP 200
+{"tutor":"Ana","telefone":"31999990000","pet":"Thor","tipo":"CONSULTA","dataHora":"2026-11-24T20:03:56.087Z","planoPetMais":true,"valor":96,"status":"CANCELADA","id":1,"taxaCancelamento":24}
+
+DELETE /consultas/1 → HTTP 409
+{"erros":["Consulta já cancelada"]}
